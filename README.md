@@ -26,7 +26,7 @@ To address the 500 Internal Server Error, you can consider the following:
    - `user` (Filter for a specific user who executed the transfer)
    - `token_address` (Filter for a specific token address)
    - `token_type` (ERC20 / ERC721)
-   - `receiver_address = 0` (Tracking for Burn Events specifically)
+   - `receiver_address = 0x0000000000000000000000000000000000000000` (Tracking for Burn Events specifically)
    
 ### Sample Query with Filters
 
